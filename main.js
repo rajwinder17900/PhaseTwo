@@ -135,5 +135,5 @@ submit.addEventListener('click', function() {
           wSpeed.innerHTML = windSpeed
           wDegree.innerHTML = windDegree
     })
-    .catch(err => alert('Incorrect city name..'))
+    .catch(err => alert('Try another city name'))
   })
