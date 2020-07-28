@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  text-align: center;
+}
+.header h1
+{
+  margin: 30px 0px;
+  margin-top: 5%;
+  font-weight: bold;
+  color: gold;
+  font-weight: 200;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header input
+{
+  padding: 3px;
+  min-width: 30%;
+  margin-left:100px;
+  color: gold;
+  background: black;
+  border-radius: 200px;
+  height: 20px;
+  font-size: 20px;
+  padding-left: 25px;
+  font-family: sans-serif;
+}
+.header #addButton{
+  border-style: double;
+  padding :12px 12px;
+  background-color: black;
+  border: gold dotted;
+  color: gold;
+  font-size: 20px;
+  margin-left:50px;
+  font-weight: bold;
+  border-radius: 200px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.header .schedule{
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  width: 50%;
+  margin-top: 20px;
+}
+.header li{
+  list-style-type: none;
+  margin-bottom: 10px;
+  font-weight: 300;
+  background: black;
+  color: gold;
+  border: gold dotted;
+  padding: 10px 20px;
+  border-radius: 200px;
+  text-align: left;
+}
+.container{
+  display: block;
+  padding-left: 250px;
+  padding-right: 250px;
+  font-size: 18px;
+}
+
+.check {
+  text-decoration: line-through;
+}
+
+h2,p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #46ecb5;
+}
+
+.display{
+  display: inline;
+}
+
+button{
+  border: gold dotted;
+  color: gold;
+  border-radius: 200px;
+  background-color: #000;
+  height: 50px;
+}
